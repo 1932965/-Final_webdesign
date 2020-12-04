@@ -1,0 +1,12 @@
+body{
+    background-color: #C2EDE8;
+    margin-right: auto;
+    margin-left: auto;
+
+    text-align: center;
+    overflow: hidden;
+    list-style: none;
+
+    display: table;
+    margin: 0 auto;
+}

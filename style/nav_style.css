@@ -1,0 +1,68 @@
+body{
+    height: 100vh;
+    background-image: url('../photo/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    font-family: "나눔고딕", "나눔스퀘어";
+}
+
+.small{
+    font-size: small;
+    font-style: italic;
+    line-height: 220%;
+}
+
+.large{
+    font-size: large;
+}
+
+audio{
+    float: right;
+	margin-top: 5px;
+    margin-right: 50px;
+    width: 250px;
+    height: 30px;
+}
+
+.logo{
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+}
+
+header {
+    width: 100%;
+    margin-right: auto;
+    margin-left: 200px;
+    overflow: hidden;
+}
+
+nav ul{
+    list-style: none;
+    display:inline;
+	float: right;
+	margin-right: 31%;
+    margin-left: 0%;
+    background-color: aqua
+}
+
+nav ul li{
+    display: inline;
+    padding: 50px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+footer{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto; 
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}

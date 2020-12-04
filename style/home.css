@@ -1,0 +1,19 @@
+section{
+    width: 1200px;
+    height: 570px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.note{
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.window{
+    margin-top: 100px;
+}
