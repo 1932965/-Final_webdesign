@@ -3,7 +3,8 @@ body{
     background-image: url('../photo/background.png');
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    background-position: center;
+    overflow: auto;
     font-family: "나눔고딕", "나눔스퀘어";
 }
 
@@ -13,8 +14,13 @@ body{
     line-height: 220%;
 }
 
+.bold{
+    font-weight: bold;
+}
+
 .large{
     font-size: large;
+    font-weight: bold;
 }
 
 audio{
@@ -27,9 +33,11 @@ audio{
 
 .logo{
     float: left;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    margin-right: auto;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    margin-right: 80px;
+    max-width: 100%; 
+    height: auto;
 }
 
 header {
@@ -40,28 +48,48 @@ header {
 }
 
 nav ul{
-    list-style: none;
-    display:inline;
-	float: right;
-	margin-right: 31%;
-    margin-left: 0%;
-    background-color: aqua
+    color: #5da0bc;
+    width: 700px;
+    height: 50px;
+    position: absolute;
+    display: inline;
+    
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 74px;
+    font-weight: bold;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+
+nav li{
+    width: 100%;
 }
 
 nav ul li{
     display: inline;
-    padding: 50px;
+    padding: 0px;
 }
 
 nav ul li a{
+    padding: 3.2em;
 	text-decoration: none;
-	color: white;
+    background-color: #5da0bc; 
+    color: white;
+}
+
+nav ul li a:hover{
+    background-color:#a7ccd8; 
+}
+
+nav li a.current { 
+    background-color: white; 
+    color: #5da0bc;
 }
 
 footer{
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto; 
+    width: 74.5%;
+    margin-left: 170px;
     padding: 10px;
     color: #fff;
     text-align: center;

@@ -8,6 +8,18 @@ section{
     float:center;
 }
 
-.window{
-    margin-top: 100px;
+.B5{
+    margin-top: 112px;
+}
+
+.fb{
+    transform:rotate(-11deg);
+}
+
+.is{
+    transform:rotate(-12deg);
+}
+
+.text{
+    transform:rotate(-7.5deg);
 }
