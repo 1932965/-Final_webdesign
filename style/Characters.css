@@ -1,9 +1,18 @@
 section{
     background-color: #fff;
     width: 1100px;
-    height: 570px;
+    height: auto;
     margin-left: 170px;
-    padding: 10px;
+    padding: 20px 0px 50px 0px ;
     text-align: center;
     float:center;
 }  
+
+.C1{
+    margin-top: 70px;
+}
+
+.C2{
+    margin-top: 30px;
+    margin-left: 490px;
+}
