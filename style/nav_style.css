@@ -3,7 +3,6 @@ body{
     background-image: url('../photo/background.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     overflow: auto;
     font-family: "나눔고딕", "나눔스퀘어";
 }

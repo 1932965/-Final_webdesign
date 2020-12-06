@@ -16,8 +16,16 @@ section{
     transform:rotate(-11deg);
 }
 
+.fb:hover {
+    transform: perspective(600px) translateZ(30px) rotate(-11deg) ;
+}
+
 .is{
     transform:rotate(-12deg);
+}
+
+.is:hover {
+    transform: perspective(600px) translateZ(30px) rotate(-12deg) ;
 }
 
 .text{
